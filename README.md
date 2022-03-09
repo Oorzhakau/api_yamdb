@@ -20,23 +20,15 @@ ___
 
 ## Установка:
 1. Клонируйте репозиторий на локальную машину.
->``git clone https://github.com/Vladislavhgtech/api_yamdb.git``
+```git clone https://github.com/Vladislavhgtech/api_yamdb.git```
 2. Установите виртуальное окружение.
-> ``python -m venv venv`` 
-> 
-> или
-> 
-> ``python3 -m venv venv``
+```python -m venv venv```
 3. Активируйте виртуальное окружение.
-> ``source venv\Scripts\activate``
-> 
-> или
-> 
-> ``venv\bin\activate``
+```source venv\Scripts\activate```
 4. Установите зависимости.
-> ``pip install -r requirements.txt``
+```pip install -r requirements.txt```
 5. Запустите локальный сервер.
-> ``python manage.py runserver``
+```python manage.py runserver```
 
 ## Техническое описание проекта YaMDb
 
@@ -46,8 +38,8 @@ ___
 
 ## Список исполнителей:
 
-**[Александр Ооржак](https://github.com/Oorzhakau)**. Управление пользователями (**Auth** и **Users**): система регистрации и аутентификации, права доступа, работа с токеном, система подтверждения e-mail, поля.
+[Александр Ооржак](https://github.com/Oorzhakau). Управление пользователями (**Auth** и **Users**): система регистрации и аутентификации, права доступа, работа с токеном, система подтверждения e-mail, поля.
 
-**[Владислав Московский](https://github.com/Vladislavhgtech)**.  Категории (**Categories**), жанры (**Genres**) и произведения (**Titles**): модели, view и эндпойнты для них.
+[Владислав Московский](https://github.com/Vladislavhgtech).  Категории (**Categories**), жанры (**Genres**) и произведения (**Titles**): модели, view и эндпойнты для них.
 
-**[Сайф Холов](https://github.com/sky)**. Permissions, исправление багов, тестирование, ответы на вопросы Ревью 
+[Сайф Холов](https://github.com/sky). Permissions, исправление багов, тестирование, ответы на вопросы Ревью 
